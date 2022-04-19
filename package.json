@@ -1,0 +1,24 @@
+{
+  "name": "dynamodb-crud",
+  "version": "1.0.0",
+  "description": "demo aws api",
+  "main": "api.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arunraj79252/dynamodb-crud.git"
+  },
+  "author": "Arunraj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arunraj79252/dynamodb-crud/issues"
+  },
+  "homepage": "https://github.com/arunraj79252/dynamodb-crud#readme",
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.72.0",
+    "@aws-sdk/util-dynamodb": "^3.72.0",
+    "serverless-iam-roles-per-function": "^3.2.0"
+  }
+}
